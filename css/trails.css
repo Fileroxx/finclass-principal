@@ -1,0 +1,1003 @@
+.trails {
+    margin-top: 104px;
+    min-height: 1340px
+}
+
+.trails .container {
+    width: 1280px;
+    margin: auto;
+    text-align: center
+}
+
+.trails .container img {
+    width: 32px;
+    height: 32px;
+    margin: 0px 0 8.67px 0
+}
+
+.trails .container h2 {
+    width: 400px;
+    font-size: 40px;
+    line-height: 46px;
+    color: #fff;
+    margin: auto
+}
+
+.trails .container h2 span {
+    color: #fff
+}
+
+.trails .container p {
+    margin: 16px 0 25px 0;
+    font-size: 18px;
+    color: rgba(255,255,255,.9);
+    line-height: 26.1px
+}
+
+.trails .container .mobile-content {
+    display: none
+}
+
+.trails ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+.trails .container .wrap-user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.trails .container .wrap-user img {
+    width: 40px;
+    height: 40px;
+    margin-top: 41px
+}
+
+.trails .container .wrap-user hr {
+    border-top: 1px solid #00e7f9;
+    width: 43px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: 7px
+}
+
+.trails .container .wrap-trails {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff !important;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 22px
+}
+
+.trails .container .wrap-trails .btns {
+    width: 100%;
+    top: 39px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff !important;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: absolute;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 2
+}
+
+.trails .container .wrap-trails .btns button {
+    width: 290px;
+    border-radius: 14.5px;
+    background-color: #0f1116;
+    border: 1px solid #0f1116;
+    padding: 32px;
+    font-size: 24px;
+    line-height: 27px;
+    color: #fff !important;
+    accent-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.trails .container .wrap-trails .btns button img {
+    width: 32px;
+    height: 32px;
+    margin: 1px 29px 0 0
+}
+
+.trails .container .wrap-trails .btns button.active {
+    border: 1px solid #00e7f9
+}
+
+.trails .container .wrap-trails .begginer {
+    width: 494px;
+    height: 249px;
+    position: relative;
+    background: none;
+    border: 1px solid #00E7F922;
+    color: #fff !important;
+
+}
+
+.trails .container .wrap-trails .begginer.active-b {
+    border-right: 1px solid #00E7F922;
+    border-top: 1px solid #00e7f9;
+    border-left: 1px solid #00e7f9;
+    border-bottom: 1px solid #00e7f9
+}
+
+.trails .container .wrap-trails .begginer.active-i {
+    border-right: 1px solid #00e7f9;
+    border-top: 1px solid #00E7F922;
+    border-left: 1px solid #00E7F922;
+    border-bottom: 1px solid #00E7F922
+}
+
+.trails .container .wrap-trails .advanced {
+    width: 494px;
+    height: 249px;
+    position: relative;
+    background: none;
+    border-top: 1px solid #00E7F922;
+    border-bottom: 1px solid #00E7F922;
+    border-right: 1px solid #00E7F922
+}
+
+.trails .container .wrap-trails .advanced.active-a {
+    border-left: 1px solid #00E7F922;
+    border-top: 1px solid #00e7f9;
+    border-right: 1px solid #00e7f9;
+    border-bottom: 1px solid #00e7f9
+}
+
+.trails .container .trails-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.trails .container .trails-content .grid-template {
+    position: absolute;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    display: grid;
+    opacity: 0;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s
+}
+
+.trails .container .trails-content .grid-template.beg {
+    display: grid;
+    opacity: 1
+}
+
+.trails .container .trails-content .grid-template.int {
+    display: grid;
+    opacity: 1;
+    -webkit-transition: all ease .7s;
+    -o-transition: all ease .7s;
+    transition: all ease .7s
+}
+
+.trails .container .trails-content .grid-template.adv {
+    display: grid;
+    opacity: 1;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s
+}
+
+.trails .container .trails-content .grid-template .l-content,
+.trails .container .trails-content .grid-template .r-content {
+    width: 100%;
+    height: 180px
+}
+
+.trails .container .trails-content .grid-template .l-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative
+}
+
+.trails .container .trails-content .grid-template .l-content .icon {
+    margin-right: 29px
+}
+
+.trails .container .trails-content .grid-template .l-content .icon img {
+    width: 40px;
+    height: 40px
+}
+
+.trails .container .trails-content .grid-template .l-content .description {
+    width: 267px;
+    text-align: left;
+    margin-right: 32px;
+    margin-top: 20px
+}
+
+.trails .container .trails-content .grid-template .l-content .description img {
+    display: none
+}
+
+.trails .container .trails-content .grid-template .l-content .description h3 {
+    width: 291px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    line-height: 23px
+}
+
+.trails .container .trails-content .grid-template .l-content .description p {
+    font-size: 16px;
+    line-height: 23.2px
+}
+
+.trails .container .trails-content .grid-template .l-content .lhr {
+    width: 252px;
+    height: unset
+}
+
+.trails .container .trails-content .grid-template .l-content .circle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -20px
+}
+
+.trails .container .trails-content .grid-template .r-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.trails .container .trails-content .grid-template .r-content .icon {
+    margin-right: 29px
+}
+
+.trails .container .trails-content .grid-template .r-content .icon img {
+    width: 40px;
+    height: 40px
+}
+
+.trails .container .trails-content .grid-template .r-content .description {
+    width: 267px;
+    text-align: left;
+    margin-right: 0;
+    margin-top: 60px
+}
+
+.trails .container .trails-content .grid-template .r-content .description img {
+    display: none
+}
+
+.trails .container .trails-content .grid-template .r-content .description h3 {
+    width: 291px;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    line-height: 23px
+}
+
+.trails .container .trails-content .grid-template .r-content .description p {
+    font-size: 16px;
+    line-height: 23.2px
+}
+
+.trails .container .trails-content .grid-template .r-content .lhr {
+    width: 252px;
+    margin-right: 29px;
+    height: unset
+}
+
+.trails .container .trails-content .grid-template .r-content .circle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -20px
+}
+
+.trails .container .trails-content .grid-template .left-line {
+    border-right: 1px solid #00e7f9
+}
+
+.trails .container .trails-content .grid-template :nth-child(7) {
+    border-right: none;
+    position: relative
+}
+
+.trails .container .trails-content .grid-template :nth-child(7)::after {
+    content: "";
+    height: 90px;
+    width: 2px;
+    border-right: 1px solid #00e7f9;
+    right: 0px;
+    top: 0;
+    position: absolute
+}
+
+.trails .container .trails-content .grid-template :first-child.left-line {
+    padding: 134px 0 90px 0
+}
+
+@media(min-width: 768px)and (max-width: 1279px) {
+    .trails {
+        margin-top: 104px;
+        min-height: 1190px
+    }
+
+    .trails .container {
+        width: 768px;
+        padding: 0 40px;
+        margin: auto;
+        text-align: center
+    }
+
+    .trails .container img {
+        width: 32px;
+        height: 32px;
+        margin: 0px 0 8.67px 0
+    }
+
+    .trails .container h2 {
+        width: 316px;
+        font-size: 32px;
+        line-height: 36px;
+        color: #86888d;
+        margin: auto
+    }
+
+    .trails .container h2 span {
+        color: #fff
+    }
+
+    .trails .container p {
+        margin: 26px 0 56px 0;
+        font-size: 18px;
+        line-height: 26.1px
+    }
+
+    .trails .container .mobile-content {
+        display: none
+    }
+
+    .trails .container .wrap-user {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .trails .container .wrap-user img {
+        width: 40px;
+        height: 40px;
+        margin-top: 0px
+    }
+
+    .trails .container .wrap-user hr {
+        border-top: 1px solid #00e7f9;
+        width: 43px;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin-top: 7px
+    }
+
+    .trails .container .wrap-trails {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 22px
+    }
+
+    .trails .container .wrap-trails .btns {
+        width: 100%;
+        top: 28px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        position: absolute;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        z-index: 2
+    }
+
+    .trails .container .wrap-trails .btns button {
+        width: 155px;
+        border-radius: 14.5px;
+        background-color: #0f1116;
+        border: 1px solid #0f1116;
+        padding: 11px 0;
+        font-size: 14px;
+        line-height:16px;
+        color: #fff !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        cursor: pointer
+    }
+
+    .trails .container .wrap-trails .btns button img {
+        width: 24px;
+        height: 24px;
+        margin: 1px 29px 0 0
+    }
+
+    .trails .container .wrap-trails .btns button.active {
+        border: 1px solid #00e7f9
+    }
+
+    .trails .container .wrap-trails .begginer {
+        width: 264px;
+        height: 120px;
+        position: relative;
+        background: none;
+        border: 1px solid #00E7F922
+    }
+
+    .trails .container .wrap-trails .begginer.active-b {
+        border-right: 1px solid #00E7F922;
+        border-top: 1px solid #00e7f9;
+        border-left: 1px solid #00e7f9;
+        border-bottom: 1px solid #00e7f9
+    }
+
+    .trails .container .wrap-trails .begginer.active-i {
+        border-right: 1px solid #00e7f9;
+        border-top: 1px solid #00E7F922;
+        border-left: 1px solid #00E7F922;
+        border-bottom: 1px solid #00E7F922
+    }
+
+    .trails .container .wrap-trails .advanced {
+        width: 264px;
+        height: 120px;
+        position: relative;
+        background: none;
+        border-top: 1px solid #00E7F922;
+        border-bottom: 1px solid #00E7F922;
+        border-right: 1px solid #00E7F922
+    }
+
+    .trails .container .wrap-trails .advanced.active-a {
+        border-left: 1px solid #00E7F922;
+        border-top: 1px solid #00e7f9;
+        border-right: 1px solid #00e7f9;
+        border-bottom: 1px solid #00e7f9
+    }
+
+    .trails .container .trails-content {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .trails .container .trails-content .grid-template {
+        position: absolute;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        display: grid;
+        opacity: 0;
+        -webkit-transition: all ease .3s;
+        -o-transition: all ease .3s;
+        transition: all ease .3s;
+        width: 100%
+    }
+
+    .trails .container .trails-content .grid-template.beg {
+        display: grid;
+        opacity: 1
+    }
+
+    .trails .container .trails-content .grid-template.int {
+        display: grid;
+        opacity: 1;
+        -webkit-transition: all ease .7s;
+        -o-transition: all ease .7s;
+        transition: all ease .7s
+    }
+
+    .trails .container .trails-content .grid-template.adv {
+        display: grid;
+        opacity: 1;
+        -webkit-transition: all ease .3s;
+        -o-transition: all ease .3s;
+        transition: all ease .3s
+    }
+
+    .trails .container .trails-content .grid-template .l-content,
+    .trails .container .trails-content .grid-template .r-content {
+        width: 100%;
+        height: 180px
+    }
+
+    .trails .container .trails-content .grid-template .l-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .trails .container .trails-content .grid-template .l-content .icon {
+        margin-right: 29px;
+        display: none
+    }
+
+    .trails .container .trails-content .grid-template .l-content .icon img {
+        width: 20px;
+        height: 20px
+    }
+
+    .trails .container .trails-content .grid-template .l-content .description {
+        width: 242px;
+        text-align: left;
+        margin-right: 32px;
+        margin-top: 20px
+    }
+
+    .trails .container .trails-content .grid-template .l-content .description img {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-bottom: 11px
+    }
+
+    .trails .container .trails-content .grid-template .l-content .description h3 {
+        width: 291px;
+        display: block;
+        font-size: 16px;
+        line-height: 18px
+    }
+
+    .trails .container .trails-content .grid-template .l-content .description p {
+        font-size: 12px;
+        line-height: 17px
+    }
+
+    .trails .container .trails-content .grid-template .l-content .lhr {
+        width: 63px;
+        height: unset
+    }
+
+    .trails .container .trails-content .grid-template .l-content .circle {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: -20px
+    }
+
+    .trails .container .trails-content .grid-template .r-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+
+    .trails .container .trails-content .grid-template .r-content .icon {
+        margin-right: 29px;
+        display: none
+    }
+
+    .trails .container .trails-content .grid-template .r-content .icon img {
+        width: 40px;
+        height: 40px
+    }
+
+    .trails .container .trails-content .grid-template .r-content .description {
+        width: 244px;
+        text-align: left;
+        margin-right: 0;
+        margin-top: 60px
+    }
+
+    .trails .container .trails-content .grid-template .r-content .description img {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-bottom: 11px
+    }
+
+    .trails .container .trails-content .grid-template .r-content .description h3 {
+        width: 291px;
+        display: block;
+        font-size: 16px;
+        line-height: 18px
+    }
+
+    .trails .container .trails-content .grid-template .r-content .description p {
+        font-size: 12px;
+        line-height: 17px
+    }
+
+    .trails .container .trails-content .grid-template .r-content .lhr {
+        width: 63px;
+        margin-right: 29px;
+        height: unset
+    }
+
+    .trails .container .trails-content .grid-template .r-content .circle {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: -20px
+    }
+
+    .trails .container .trails-content .grid-template .left-line {
+        border-right: 1px solid #00e7f9
+    }
+
+    .trails .container .trails-content .grid-template :nth-child(7) {
+        border-right: none;
+        position: relative
+    }
+
+    .trails .container .trails-content .grid-template :nth-child(7)::after {
+        content: "";
+        height: 90px;
+        width: 2px;
+        border-right: 1px solid #00e7f9;
+        right: 0px;
+        top: 0;
+        position: absolute
+    }
+
+    .trails .container .trails-content .grid-template :first-child.left-line {
+        padding: 134px 0 90px 0
+    }
+}
+
+@media(max-width: 767px) {
+    .trails {
+        margin-top: 76px;
+        min-height: unset
+    }
+
+    .trails .container {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 0 20px
+    }
+
+    .trails .container img {
+        width: 32px;
+        height: 32px;
+        margin: 0px 0 8.67px 0
+    }
+
+    .trails .container h2 {
+        width: 273px;
+        font-size: 28px;
+        line-height: 33px;
+        color: #86888d;
+        margin: auto
+    }
+
+    .trails .container h2 span {
+        color: #fff
+    }
+
+    .trails .container p {
+        margin: 16px 0 0px 0;
+        font-size: 16px;
+        line-height: 23px
+    }
+
+    .trails .container .wrap-user {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .trails .container .wrap-user img {
+        width: 50px;
+        height: 50px;
+        margin-top: 37px
+    }
+
+    .trails .container .wrap-user hr {
+        border-top: 1px solid #00e7f9;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin-top: 7px
+    }
+
+    .trails .container .wrap-trails {
+        display: none
+    }
+
+    .trails .container .trails-content {
+        display: none
+    }
+
+    .trails .container .mobile-content {
+        display: unset;
+        margin-top: 23px;
+        color: #fff;
+    }
+
+    .trails .container .mobile-content ul .wrap-trail hr {
+        border-top: 1px solid #00e7f9;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin-top: 7px
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-level {
+        padding: 32px 30px;
+        border-radius: 14px;
+        background-color: #0f1116;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+        line-height: 23px;
+        margin: 0 0 24px 0;
+        position: relative
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-level::after {
+        content: "";
+        border-right: 2px solid #00e7f9;
+        height: 30px;
+        width: 0px;
+        position: absolute;
+        left: 50%;
+        bottom: -30px
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-level :nth-child(2) {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: all ease-in-out .3s;
+        -o-transition: all ease-in-out .3s;
+        transition: all ease-in-out .3s
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-level.open :nth-child(2) {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        -webkit-transition: all ease-in-out .3s;
+        -o-transition: all ease-in-out .3s;
+        transition: all ease-in-out .3s
+    }
+
+    .trails .container .mobile-content ul .wrap-trail:last-child ::after {
+        content: "";
+        display: none
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 0
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content.open {
+        display: grid;
+        padding: 0px 0
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo .description {
+        padding: 0 0 23px 21px
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo .description h3 {
+        text-align: left;
+        width: 127px;
+        display: block
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo .description p {
+        text-align: left;
+        font-size: 16px
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo .icon {
+        margin: 0 0 12px 0
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(2n) {
+        border-left: 2px solid #00e7f9
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(2),
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(6) {
+        padding: 0px 0;
+        position: relative;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(2) .icon,
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(6) .icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding: 0 0px 0 21px
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(2)::before,
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(6)::before {
+        content: "";
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        background-image: url("../content/img/circle.svg");
+        background-size: cover
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(3),
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(7) {
+        padding: 0px 0px 30px 0px;
+        position: relative;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(3) .icon,
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(7) .icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        padding: 0 21px 0 0
+    }
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(3)::before,
+    .trails .container .mobile-content ul .wrap-trail .trail-content .card-conteudo:nth-child(7)::before {
+        content: "";
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        background-image: url("../content/img/circle.svg");
+        background-size: cover
+    }
+}
+
+.whatsappSupport {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: -webkit-filter .2s;
+    transition: -webkit-filter .2s;
+    -o-transition: filter .2s;
+    transition: filter .2s;
+    transition: filter .2s, -webkit-filter .2s
+}
+
