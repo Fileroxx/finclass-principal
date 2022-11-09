@@ -44,6 +44,11 @@ nav .nav-link, .navbar-brand {
         text-align: left;
     
     }
+
+    nav .nav-link {
+        font-size: 1.2rem;
+    }
+
 }
 
 
