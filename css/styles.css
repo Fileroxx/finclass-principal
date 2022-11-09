@@ -228,6 +228,7 @@ main .descubra img {
 #conteudos .conteudos {
     display: flex;
     justify-content: center;
+    height: 100%;
     align-items: center;
 
 }
@@ -238,7 +239,7 @@ main .descubra img {
     background: rgba(255,255,255,.05);
     border-radius: 10px;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,6 +272,7 @@ main .descubra img {
 
     #conteudos .conteudo {
         padding: 0;
+        margin-top: 1rem;
         height: 14vh;
         padding-top: 1rem;
     }
@@ -339,7 +341,7 @@ main .descubra img {
 }
 
 #baixar .titulo p {
-    width: 50%;
+    width: 100%;
     font-size: 1rem;
 }
 
