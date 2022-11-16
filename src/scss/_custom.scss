@@ -56,9 +56,10 @@ nav .nav-link {
 }
 
 main {
-  background: url("https://finclass.com/content/img/financas-com-os-melhores-do-mundo.webp");
+  background: url(./../images/BG002.png);
+  // background: url("https://finclass.com/content/img/financas-com-os-melhores-do-mundo.webp");
   background-repeat: no-repeat;
-  background-position: center;
+  // background-position: center;
   padding-top: 8rem;
   color: #fff;
 
@@ -139,7 +140,7 @@ main {
     background-position: top center;
 
     .mockup img {
-      width: 40%;
+      width: 65%;
     }
 
     .conteudo {
